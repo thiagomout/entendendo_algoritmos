@@ -1,2 +1,2 @@
 # entendendo_algoritmos
-Exercicios do livro Entendendo Algoritmos
+Exercicios e anotações do livro Entendendo Algoritmos
