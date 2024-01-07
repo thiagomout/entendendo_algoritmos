@@ -1,6 +1,6 @@
 def pesquisa_binaria(lista, item):
     baixo = 0
-    alto = lista[4] - 1
+    alto = lista[-1] - 1
 
     while baixo <= alto:
         meio = (baixo + alto) // 2

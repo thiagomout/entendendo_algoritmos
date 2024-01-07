@@ -13,7 +13,13 @@ Queremos otimizar nosso algoritmo - menor tempo e espaço.
 Na pesquisa binária é executada com tempo logaritmico.
 
 ### Notação Big O
-Notação especial que diz o quão rápido é um algoritmo.
+Notação especial que diz o quão rápido é um algoritmo. Essa notação não leva em consideração o tempo, mas sim o número de operações, ela informa o quão rapidamente um algoritmo cresce. para pesquisa binária na notação Big O, escrevemos $O(\log n)$. É importante ressaltar que a notação Big O leva em conta a pior hipótese, pode ser que na pesquisa simples encontremos o item na primeira tentativa, do mesmo jeito a notação é $O(n)$.
 
-#### Tempo de execução de cada algoritmo cresce em taxas diferentes
-O tempo de execução da pesquisa simples ou binária cresce em totalmente diferentes, exemplo: para uma lista de 100 elementos que demora 1 ms para checar cada elemento, a pesquisa simples demoraria 100 ms e a binária 7 ms, já para 1 bilhão de elementos a simples demoraria 11 dias, já a binária 32 ms.
+#### Exercícios
+1.3 - Pela lista estar ordenada $O(log n)$
+1.4 - $O(n)$
+1.5 - $O(n)$
+1.6 - São 26 letras no alfabeto, já que queremos percorrer apenas 1 delas, $O(n/26)$
+
+#### Caixeiro Viajante
+No exemplo do caixeiro viajante vemos que para decidir o melhor itinerário entra n cidades temos que testar todas as combinações entre elas, resultando em $O(n!)$, muitas pessoas já tentaram resolver esse problema, mas parece ser um problema impossível.
